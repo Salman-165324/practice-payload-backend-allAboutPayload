@@ -1,8 +1,10 @@
-export const Hero = {
+import { Block } from "payload/types";
+
+export const Hero:Block = {
     slug: 'hero', 
     labels: {
-        singular: "Hero Block", 
-        plurals: "Hero Blocks", 
+        singular: 'Hero Block', 
+        plural: 'Hero Blocks', 
     }, 
     fields: [
         {

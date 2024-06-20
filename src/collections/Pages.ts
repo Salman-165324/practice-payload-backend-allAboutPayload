@@ -1,4 +1,8 @@
-export const Pages = {
+import { CollectionConfig } from "payload/types";
+import { Hero } from "../blocks/Hero";
+import { TwoColumn } from "../blocks/TwoColumn";
+
+export const Pages: CollectionConfig = {
   slug: "pages",
   labels: {
     singular: "Page",
@@ -24,7 +28,7 @@ export const Pages = {
       name: "layout",
       label: "Layout",
       type: "blocks",
-      blocks: [],
+      blocks: [Hero, TwoColumn],
     },
   ],
 };
