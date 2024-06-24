@@ -19,6 +19,11 @@ export const TwoColumn:Block = {
       relationTo: "media",
     },
     {
+      name: 'text',
+      label: 'Text', 
+      type: 'textarea',
+    },
+    {
       name: "direction",
       label: "Direction",
       type: "select",
