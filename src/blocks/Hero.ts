@@ -8,7 +8,7 @@ export const Hero:Block = {
     }, 
     fields: [
         {
-            name: 'Heading', 
+            name: 'heading', 
             label: 'Heading', 
             type: 'text',
         },
